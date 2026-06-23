@@ -1,0 +1,12 @@
+{
+  "name": "sigil_engine",
+  "type": "GPGPU_GRID_SIM",
+  "title": "Sigil Engine — Chaos Magick Sigil Generator",
+  "brief": "Chaos magick sigil generator using the Austin Osman Spare method. Condense statements by removing vowels and duplicates, map letters to glyphs, overlay them, and animate a charging sequence with flames and particles. Includes strobing effects to evoke visual gnosis.",
+  "inputs": ["user_intent"],
+  "outputs": ["sigil_pattern"],
+  "tags": ["generator", "chaos-magick", "sigil"],
+  "adjacency": [],
+  "status": "seed",
+  "batch": "D"
+}
