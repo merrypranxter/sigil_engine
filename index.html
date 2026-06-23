@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigil Engine</title>
+  <style>
+    body { margin: 0; background: #111; color: #eee; font-family: sans-serif; overflow: hidden; }
+    #ui { position: absolute; top: 10px; left: 10px; z-index: 1; }
+    input[type=text] { width: 300px; padding: 5px; font-size: 16px; }
+    button { margin-left: 5px; padding: 5px 10px; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <input id="statement" type="text" placeholder="Enter your statement...">
+    <button id="generate">Generate Sigil</button>
+    <button id="charge">Charge Sigil</button>
+  </div>
+  <canvas id="gl"></canvas>
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
