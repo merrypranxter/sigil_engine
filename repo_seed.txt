@@ -1,0 +1,22 @@
+# sigil_engine
+
+> Turn your intention into a generative chaos-magick sigil. Provide a phrase; vowels and duplicate letters are removed, leaving unique consonants which become glyphs. Letters are overlaid to form a unique seal, then charged through visual gnosis with flame trails, particle bursts, and strobing animations.
+
+**Archetype:** GPGPU_GRID_SIM. Distinct from `runic_galdr` (runes and resonance) and `pulfrich_effect` (perception experiments).
+
+## Adjacency
+- `runic_galdr` — both projects translate symbolic systems into generative visuals.
+- `particle_systems` — uses simple physics to create flame and burst effects.
+- `shader_feedback` — ping-pong FBOs could be used for afterimages and strobing.
+
+## Visual Targets
+- Condensed letters drawn with straight line segments.
+- Glyph overlay forming a unique seal; slight random rotations and offsets to break symmetry.
+- Combustion animation: flickering flame trails along the strokes.
+- Particle burst when the sigil is fully charged.
+- Strobing inversion to evoke visual gnosis.
+
+## Technical Notes
+- Data: Each letter uses line segments in normalized 0–1 coordinates.
+- Condensing: remove vowels (A,E,I,O,U) and duplicate letters; keep order.
+- Charging: simple particle system spawns along strokes; fire-like colours fade with time; strobe toggling flips colours at random intervals.
