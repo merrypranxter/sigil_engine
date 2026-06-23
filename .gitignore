@@ -1,0 +1,22 @@
+# Node modules and build outputs
+node_modules/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS-specific cruft
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+
+# Compiled WebAssembly modules
+*.wasm
+
+# Temporary files
+.tmp/
+tmp/
